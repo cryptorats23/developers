@@ -6,9 +6,11 @@ if (!process.env.PRIVATE_KEY || !process.env.MAINNET) {
   throw new Error('must set PRIVATE_KEY and MAINNET environment variables')
 }
 
+const ORDER_SERVER_URL = process.env.ORDER_SERVER_URL || 'http://localhost:5004/getOrder'
+
 const app = express()
 app.use(express.json())
-app.listen(5005, () => console.log('API client server listening on port 5005!'))
+app.listen(5005, () => console.log('API client server listening on port 5005! Order server url: ' + ORDER_SERVER_URL))
 
 const airswap = new AirSwap({
   privateKey: process.env.PRIVATE_KEY,
@@ -32,7 +34,7 @@ airswap.RPC_METHOD_ACTIONS.getOrder = msg => {
   params.makerAddress = airswap.wallet.address
   rp({
     method: 'POST',
-    uri: 'http://localhost:5004/getOrder',
+    uri: ORDER_SERVER_URL,
     json: true,
     body: params,
   }).then(orderParams => {
