@@ -24,10 +24,11 @@ const asyncMiddleware = fn => (req, res, next) => {
 }
 
 // Relay getOrder requests from other peers to the order server
-airswap.RPC_METHOD_ACTIONS.getOrder = msg => {
-  let { params } = msg
+airswap.RPC_METHOD_ACTIONS.getOrder = payload => {
+  const { message, sender, receiver } = payload
+  let { params } = message
   if (typeof params === 'string' && params.startsWith('-----BEGIN PGP MESSAGE-----')) {
-    params = airswap.decryptPGPMessage(params)
+    params = airswap.decryptMessage(params)
   }
   params.makerAddress = airswap.wallet.address
   rp({
@@ -42,7 +43,7 @@ airswap.RPC_METHOD_ACTIONS.getOrder = msg => {
       takerAddress: params.takerAddress,
     })
     airswap.call(
-      params.takerAddress, // send order to address who requested it
+      sender, // send order to address who requested it
       { id: msg.id, jsonrpc: '2.0', result: signedOrder }, // response id should match their `msg.id`
     )
   })
