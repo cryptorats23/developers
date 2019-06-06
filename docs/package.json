@@ -9,8 +9,5 @@
   "devDependencies": {
     "docsify-cli": "^4.3.0"
   },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "airswap.js": "^0.0.21"
-  }
+  "license": "Apache-2.0"
 }
