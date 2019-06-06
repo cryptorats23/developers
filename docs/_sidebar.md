@@ -17,7 +17,6 @@
 -   Tutorials
 
     -   [Market Maker](tutorials/market-maker.md)
-    -   [Trading Bot](tutorials/trading-bot.md)
 
 -   In the Wild
 
