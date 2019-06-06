@@ -3,7 +3,12 @@ const Router = require('AirSwap.js/src/protocolMessaging')
 const TokenMetadata = require('AirSwap.js/src/tokens')
 const DeltaBalances = require('AirSwap.js/src/deltaBalances')
 
-const PK = process.env.PK
+const PK = process.env.PRIVATE_KEY
+if (!PK) {
+  console.log('Please set the PRIVATE_KEY environment variable')
+  process.exit(0)
+}
+
 const AST = '0xcc1cbd4f67cceb7c001bd4adf98451237a193ff8' // Rinkeby AST address
 const ETH = '0x0000000000000000000000000000000000000000'
 
