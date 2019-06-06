@@ -204,8 +204,6 @@ async function signOrder({ makerAddress, makerAmount, makerToken, takerAddress, 
     nonce,
   ])
 
-  console.log(hashedOrder)
-
   const signedMsg = await wallet.signMessage(ethers.utils.arrayify(hashedOrder))
   const sig = ethers.utils.splitSignature(signedMsg)
 
