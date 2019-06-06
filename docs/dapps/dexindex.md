@@ -4,4 +4,4 @@ DexIndex is an an open-source price discovery tool that allows users to easily p
 
 ![DexIndex](../assets/dapps/dexindex.1.jpg)
 
-Now that we've seen some dApps built on the AirSwap network. Let's take a look at the APIs that make this possible. [⟶](api/concepts.md)
+Now that we've seen some dApps built on the AirSwap network, let's take a look at the [AirSwap API ⟶](api/concepts.md)
