@@ -16,7 +16,7 @@
 
 -   Tutorials
 
-    -   [Market Maker](tutorials/maker/README.md)
+    -   [Market Maker](tutorials/market-maker/README.md)
 
 -   In the Wild
 
