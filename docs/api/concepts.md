@@ -69,7 +69,7 @@ Response (Maker)
 
 ### getOrder
 
-Also similar to getQuote, but should only be called when the Taker is ready to execute an order. The Maker will return a cryptographically signed order, which can be execute using the Swap contract within the Maker's desired expiratiojn time. Because an order creates risk exposure, Maker's often implement their own logic when deciding whether to return an order. For example, a Maker may elect to not return an order at all if the Taker does not have a sufficient balance to complete the transaction.
+Also similar to getQuote, but should only be called when the Taker is ready to execute an order. The Maker will return a cryptographically signed order, which can be execute using the Swap contract within the Maker's desired expiration time. Because an order creates risk exposure, Maker's often implement their own logic when deciding whether to return an order. For example, a Maker may elect to not return an order at all if the Taker does not have a sufficient balance to complete the transaction.
 
 Request (Taker)
 
