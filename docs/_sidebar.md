@@ -1,12 +1,5 @@
 -   [What is AirSwap?](README.md)
 
--   dApps
-
-    -   [Widget](dapps/widget.md)
-    -   [Instant](dapps/instant.md)
-    -   [Spaces](dapps/spaces.md)
-    -   [DexIndex](dapps/dexindex.md)
-
 -   API
 
     -   [Concepts](api/concepts.md)
@@ -17,6 +10,13 @@
 -   Tutorials
 
     -   [Market Maker](tutorials/market-maker/README.md)
+
+-   dApps
+
+    -   [Widget](dapps/widget.md)
+    -   [Instant](dapps/instant.md)
+    -   [Spaces](dapps/spaces.md)
+    -   [DexIndex](dapps/dexindex.md)
 
 -   In the Wild
 
