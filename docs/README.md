@@ -4,10 +4,10 @@
 
 [AirSwap](https://airswap.io/) is a peer-to-peer network for trading Ethereum ERC20 tokens. Peers connect to the marketplace and use the [Swap](https://swap.tech/whitepaper/) protocol to find and execute trades:
 
-* Makers: provide liquidity in the form of quotes and signed orders
-* Takers: send requests for quotes / orders and execute swaps
+* Makers: provide liquidity
+* Takers: take liquidity
 
-In general, Takers tend to use existing [dApps](dapps/widget.md) for price discovery and execution, while Makers tend to use our APIs and libraries to provide liquidity.
+In general, Takers tend to use existing [dApps](dapps/widget.md) for price discovery and execution, while Makers tend to use our APIs and libraries to provide quotes and signed orders.
 
 ## Maker Quickstart
 
