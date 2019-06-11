@@ -83,8 +83,12 @@ app.post(
   '/getOrder',
   asyncMiddleware(async (req, res) => {
     const { makerAddress, params } = req.body
-    const order = await airswap.getOrder(makerAddress, params)
-    sendResponse(res, order)
+    try {
+      const order = await airswap.getOrder(makerAddress, params)
+      sendResponse(res, order)
+    } catch (e) {
+      sendResponse(res, e.message)
+    }
   }),
 )
 
