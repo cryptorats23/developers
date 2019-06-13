@@ -1,6 +1,6 @@
 # DexIndex
 
-DexIndex is an an open-source price discovery tool that allows users to easily perform getQuote requests to all online  Makers. It aggregates price information from other marketplaces to ensure you are always getting the best price.
+DexIndex is an an open-source price discovery tool that allows users to easily perform getQuote requests to all online  Makers. It aggregates price information from other DEXs to ensure you are always getting the best price.
 
 ![DexIndex](../assets/dapps/dexindex.1.jpg)
 

@@ -1,6 +1,6 @@
 # Instant
 
-The Instant marketplace combines portfolio functionality with global trading and liquidity statistics for the aggregate AirSwap trading network. Takers can request quotes and buy or sell from any connected Maker, and will automatically be presented with the best order available.
+AirSwap Instant combines portfolio functionality with global trading and liquidity statistics for the aggregate AirSwap trading network. Takers can request quotes and buy or sell from any connected Maker, and will automatically be presented with the best order available.
 
 ![Price Compare - Make sure you are getting the prcices not just within AirSwap but across other Ethereum decentralized exchanges.](../assets/dapps/instant.1.jpg)
 

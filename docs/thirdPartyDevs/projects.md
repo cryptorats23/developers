@@ -18,4 +18,4 @@ AirSwapChat is a community maintained peer2peer finding, messaging and order set
 
 ## AirSwapMaker
 
-AirSwapMaker is a community maintained Angular + Electron app to run a market maker on AirSwap locally on your computer. Click [here](https://github.com/DomiDre/airswapmaker) to visit the github repository.
+AirSwapMaker is a community maintained Angular + Electron app to run a Maker on AirSwap locally on your computer. Click [here](https://github.com/DomiDre/airswapmaker) to visit the github repository.

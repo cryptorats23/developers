@@ -2,7 +2,7 @@
 
 ## What is AirSwap? {docsify-ignore-all}
 
-[AirSwap](https://airswap.io/) is a peer-to-peer network for trading Ethereum ERC20 tokens. Peers connect to the marketplace and use the [Swap](https://swap.tech/whitepaper/) protocol to find and execute trades:
+[AirSwap](https://airswap.io/) is a peer-to-peer network for trading Ethereum ERC20 tokens. Peers connect to the network and use the [Swap](https://swap.tech/whitepaper/) protocol to find and execute trades:
 
 * Makers: provide liquidity
 * Takers: take liquidity

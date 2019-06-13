@@ -2,7 +2,7 @@
 
 ## Overview
 
-In [Concepts](../api/concepts.md), we learned about Makers and Takers and how they interact with one another using dApps and APIs. We looked at the [Indexer](../api/indexer.md) and learned about Intents. In this tutorial, you'll learn how to put together these concepts in order to provide liquidity on the AirSwap marketplace. Over the course of this tutorial, you'll learn how to:
+In [Concepts](../api/concepts.md), we learned about Makers and Takers and how they interact with one another using dApps and APIs. We looked at the [Indexer](../api/indexer.md) and learned about Intents. In this tutorial, you'll learn how to put together these concepts in order to provide liquidity on the AirSwap network. Over the course of this tutorial, you'll learn how to:
 
 * Authenticate with the AirSwap Websocket
 * Create Intents
@@ -237,8 +237,8 @@ console.log('sent order', response)
 
 ## Next Steps
 
-Congratulations! You've created a Market Maker.
+Congratulations! You've created a Maker.
 
-Your application connects to the AirSwap Websocket, sets an Intent to trade AST/ETH and responds to requests with signed orders that can be executed by Takers on the Swap contract ([Rinkeby](https://rinkeby.etherscan.io/address/0x07fC7c43D8168a2730344E5CF958aaecc3B42B41) and [Mainnet](https://etherscan.io/address/0x8fd3121013a07c57f0d69646e86e7a4880b467b7)). Of course, this is a very simple implementation. You can enhance your market maker with better pricing algorithms, risk management, and hedging capabilities to compete with other market makers.
+Your application connects to the AirSwap Websocket, sets an Intent to trade AST/ETH and responds to requests with signed orders that can be executed by Takers on the Swap contract ([Rinkeby](https://rinkeby.etherscan.io/address/0x07fC7c43D8168a2730344E5CF958aaecc3B42B41) and [Mainnet](https://etherscan.io/address/0x8fd3121013a07c57f0d69646e86e7a4880b467b7)). Of course, this is a very simple implementation. You can enhance your Maker with better pricing algorithms, risk management, and hedging capabilities to compete with other Makers.
 
 If you haven't done so already, [check out the code](https://github.com/airswap/developers/tree/master/docs/tutorials/maker/app.js) for this example. It includes examples of how to use TokenMetadata to check balances, respond to quote requests and more. If you feel that this tutorial is missing something, feel free to [open a pull request](https://github.com/airswap/developers/pulls). Thanks for reading and happy hunting!
