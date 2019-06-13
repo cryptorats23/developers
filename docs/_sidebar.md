@@ -1,30 +1,34 @@
--   [What is AirSwap?](README.md)
+- Getting Started
 
--   API
+    -   [What is AirSwap?]()
+    -   [Concepts](getting-started/concepts.md)
+    -   [Quick Start](getting-started/quickstart.md)
 
-    -   [Concepts](api/concepts.md)
+- API
+
+    -   [Peers](api/peers.md)
     -   [Indexer](api/indexer.md)
     -   [AirSwap.js](api/airswapjs.md)
     -   [Next Steps](api/next-steps.md)
 
--   Tutorials
+- Tutorial
 
-    -   [Market Maker](tutorials/market-maker/README.md)
+    -   [Maker](tutorials/maker/README.md)
 
--   Advanced
+- Advanced
 
     -   [WETH](advanced/weth.md)
     -   [Approvals](advanced/approvals.md)
     -   [API Server](advanced/api-server.md)
     -   [WebSocket](advanced/websocket.md)
 
--   Apps by AirSwap
+- Apps by AirSwap
 
     -   [Widget](dapps/widget.md)
     -   [Instant](dapps/instant.md)
     -   [Spaces](dapps/spaces.md)
     -   [DexIndex](dapps/dexindex.md)
 
--   Apps in the Wild
+- Apps in the Wild
 
     -   [Community Maintained Projects](thirdPartyDevs/projects.md)
