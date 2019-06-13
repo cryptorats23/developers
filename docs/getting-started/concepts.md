@@ -1,6 +1,6 @@
 # Concepts {docsify-ignore-all}
 
-First, it is important to understand thsat **AirSwap is not an exchange**.
+First, it is important to understand that **AirSwap is not an exchange**.
 
 AirSwap has no order book, no deposits, no withdrawls and no counterparty risk.
 
