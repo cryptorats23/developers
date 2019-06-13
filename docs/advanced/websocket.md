@@ -1,6 +1,6 @@
 # WebSocket
 
-In addition to using [AirSwap.js](./api/airswap.js) or the [API Server](api-server.md), it is possible to connect directly to the AirSwap Websocket to communicate with peers or the Indexer. 
+In addition to using [AirSwap.js](api/airswapjs.md) or the [API Server](advanced/api-server.md), it is possible to connect directly to the AirSwap Websocket to communicate with peers or the Indexer. 
 
 !> The Mainnet Websocket URL is: `wss://connect.airswap-api.com/websocket`. The Rinkeby Websocket URL is: `wss://sandbox.airswap-api.com/websocket`.
 
