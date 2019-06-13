@@ -11,13 +11,20 @@
 
     -   [Market Maker](tutorials/market-maker/README.md)
 
--   dApps
+-   Advanced
+
+    -   [WETH](advanced/weth.md)
+    -   [Approvals](advanced/approvals.md)
+    -   [API Server](advanced/api-server.md)
+    -   [WebSocket](advanced/websocket.md)
+
+-   Apps by AirSwap
 
     -   [Widget](dapps/widget.md)
     -   [Instant](dapps/instant.md)
     -   [Spaces](dapps/spaces.md)
     -   [DexIndex](dapps/dexindex.md)
 
--   In the Wild
+-   Apps in the Wild
 
     -   [Community Maintained Projects](thirdPartyDevs/projects.md)
