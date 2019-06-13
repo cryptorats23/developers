@@ -1,4 +1,4 @@
-# Concepts
+# Concepts {docsify-ignore-all}
 
 First, it is important to understand thsat **AirSwap is not an exchange**.
 
