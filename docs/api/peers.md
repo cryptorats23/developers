@@ -1,10 +1,8 @@
-# AirSwap API
-
-## Concepts {docsify-ignore}
+# Peer API
 
 The main entrypoint to the AirSwap network is a WebSocket interface that allows peers to communicate using a JSON RPC and a set of methods defined by the Swap protocol: getQuote, getMaxQuote, getOrder.
 
-!> These examples ignore WebSocket authentication and JSON RPC request / response formatting. These concepts are abstracted away by our client libraries and won't be needed by most developers. For more information, including the exact message specification, see: Advanced.
+!> These examples ignore WebSocket authentication and JSON RPC request / response formatting. These concepts are abstracted away by our client libraries and won't be needed by most developers. For more information, including the exact message specification, see: [Websocket](advanced/websocket.md).
 
 !> In the following examples, `makerAmount` and `takerAmount` are Wei values, meaning they take ERC20 decimals into account. You can find a full list of indexed token metadata for: [Mainnet](https://token-metadata.airswap.io/tokens) or [Rinkeby](https://token-metadata.airswap.io/rinkebyTokens).
 
